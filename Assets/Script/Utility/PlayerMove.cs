@@ -21,6 +21,6 @@ public class PlayerMove : MonoBehaviour
         moveDir = transform.right * Input.GetAxis("Horizontal") + transform.forward * Input.GetAxis("Vertical");
         currentInputVector = Vector2.SmoothDamp(currentInputVector,new Vector2(moveDir.x,moveDir.z),ref smoothInputVelocity,smoothInputSpeed);
         moveDir = new Vector3(currentInputVector.x,0,currentInputVector.y);
-        player.Move(moveDir * Time.deltaTime);
+        player.Move(moveDir * speed* Time.deltaTime);
     }
 }

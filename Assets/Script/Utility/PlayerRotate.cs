@@ -13,9 +13,7 @@ public class PlayerRotate : MonoBehaviour
     public virtual void Rotate()
     {
         vertRot -= GetVerticalValue();
-        vertRot = vertRot <= -rotationLimit ? -rotationLimit :
-                  vertRot >= rotationLimit ? rotationLimit :
-                  vertRot;
+        vertRot = Mathf.Clamp(vertRot,-rotationLimit,rotationLimit);
 
         RotateVertical();
         RotateHorizontal();

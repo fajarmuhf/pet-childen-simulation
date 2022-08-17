@@ -1184,6 +1184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  smoothInputSpeed: 0
 --- !u!114 &9047781382157957617
 MonoBehaviour:
   m_ObjectHideFlags: 0
