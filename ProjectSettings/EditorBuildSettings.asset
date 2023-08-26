@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay-House.unity
     guid: 9a110c511b62d4da7b9ad6e1484d4474
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 797eb35c2b8474d2baec73ab0d48fdf6
   m_configObjects: {}

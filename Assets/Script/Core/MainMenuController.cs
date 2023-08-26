@@ -16,6 +16,11 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("Gameplay-House");
     }
 
+    public void creditsButtonClick()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     // Update is called once per frame
     void Update()
     {
